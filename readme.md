@@ -8,6 +8,12 @@ numbers of carelogs table clock_in and clock_out method representation of what m
 numbers of carelogs table status number represent of what status?
 Actual tables of agencies, franchisors, profiles, external_ids, parent, location
 
+Insertion to database from scraped data:
+As it’s scraped data inserting into tables, there should be Edge case handling of missing data logic: 
+a.	Strict Insertion: missing fields will reject the insertion
+b.	Partial insertion: insert data and handle nulls or add null to empty field to missing fields from scrapped data
+
+
 •	Rationale for schema choices & normal forms:
 My schema design steps: 
 1.	I started by reviewing both CSV files—caregivers and carelogs—to understand the structure and relationship between them. It was clear that carelogs are work records tied to individual caregivers, making it a child table with caregiver_id as a foreign key.I then found the connections that carelog is the child table reliant on caregiver as the parent table. Carelog is the work summary (e.g. time, work, location) from the caregiver.
