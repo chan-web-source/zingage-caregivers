@@ -32,4 +32,6 @@ Additional inputs:
   Option: Split carelogs into scheduled/actual tables → Chose single table for simpler joins.
 
 •	Link to your Loom demo:
+part 1： https://www.loom.com/share/fd86e262f2f64686b39a4c65dec182e6?sid=2c01e3d8-5def-46e9-aea0-ea355529ff7e
+part 2： https://www.loom.com/share/a29c8e4154e64f52a42f31fa9c45d8ff?sid=328ca709-f81f-452c-936f-682d29ed8a16
 
