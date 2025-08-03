@@ -1,0 +1,25 @@
+AI Usage Guidelines
+1. Generate Interface & DB Schema from CSV
+•	Use AI to convert .csv column headers into:
+o	TypeScript interfaces
+o	PostgreSQL table schemas
+•	Example instruction pattern:
+o	"xxx_id" → denotes a foreign key reference
+2. Scale Functionalities with AI Assistance
+•	Provide:
+o	Previously built functionalities as references (including interface and format)
+o	Naming conventions for models, functions, and APIs
+•	AI helps extend new features with consistent logic and naming
+3. Ensure Consistency & Type-Safety
+•	Validate:
+o	Code formatting
+o	Strong TypeScript interfaces
+•	Use AI to cross-check structure and types
+4. Documentation Writing
+•	Bullet-point initial thoughts
+•	Use AI to rewrite and format them clearly into professional documentation
+5. PostgreSQL Query Authoring
+•	Use AI to:
+o	Write queries in a clean, consistent format
+o	Ensure readability and structure
+•	Example: align clauses (e.g., SELECT, FROM, JOIN) and indentation
